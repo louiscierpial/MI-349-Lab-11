@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>USD/CAD Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <h1>USD/CAD Currency Converter</h1>
+        <form id="currency-form">
+            <label for="amount-input">Amount</label>
+            <input id="amount-input" name="amount" type="number" min="0" step="any" placeholder="Enter an amount" required>
+
+            <label for="conversion-direction">Convert</label>
+            <select id="conversion-direction" name="direction">
+                <option value="USD-CAD">USD to CAD</option>
+                <option value="CAD-USD">CAD to USD</option>
+            </select>
+
+            <button type="submit">Convert currency</button>
+        </form>
+
+        <p id="status" role="status" aria-live="polite"></p>
+
+        <section id="results" aria-labelledby="results-title" hidden>
+            <h2 id="results-title">Conversion result</h2>
+            <dl id="result-list"></dl>
+            <p>Exchange rates provided by <a id="toolalizeLink" href="https://toolalize.com" target="_blank" rel="noopener noreferrer">Toolalize.com</a>.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>Louis Cierpial; MI 349 Lab 11</p>
+    </footer>
+</body>
+</html>

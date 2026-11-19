@@ -1,0 +1,91 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    background: #264653;
+    color: #E76F51;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1150px;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 0 auto;
+    color: white;
+    background-color: #2A9D8F;
+    margin-left: 58rem;
+    height: 3rem;
+    width: 20rem;
+}
+
+form{
+    color:#E9C46A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10rem;
+    margin-bottom: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin: 53.67px;
+    border: 3px solid #2A9D8F;
+}
+
+button, input[type="submit"], input[type="button"], input[type="reset"]{
+    font-family: 'Franklin Gothic';
+    font-size: 1rem;
+    background-color: #2A9D8F;
+    color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+}
+
+select{
+    height: 2.5rem;
+    background-color: #2A9D8F;
+    font-size: large;
+    border-radius: 1rem;
+    accent-color: #2A9D8F;
+    color: white;
+}
+
+input{
+    height: 2.5rem;
+    background-color: #2A9D8F;
+    font-size: large;
+    border-radius: 1rem;
+    accent-color: #2A9D8F;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Franklin Gothic';
+}
+
+input[type="checkbox"]{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+label[for="url-input"]{
+    font-size: 2rem;
+}
+
+#open-screenshot{
+    color: #E76F51;
+}
+
+#toolalizeLink{
+    color: #E76F51;
+}
